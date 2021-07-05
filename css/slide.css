@@ -1,0 +1,61 @@
+.mySlides{
+    display: none;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    margin: 30px;
+    border-radius: 15px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.myTitle{
+    display: none;
+    font-size: 30px;
+    color: black;
+    font-family: bahnscrift;
+    margin: 20px;
+}
+
+.myText{
+    display: none;
+    font-size: 20px;
+    font-family: bahnscrift;
+    margin: 30px;
+    color: black;
+}
+
+.button-left{
+    background-color: white;
+    color: black;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: -60px;
+    border: none;
+}
+
+.button-right{
+    background-color: white;
+    color: #1b1b1b;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    right: -60px;
+    border: none;
+}
+
+.button-left:hover{
+    background-color: #1b1b1b;
+    color: white;
+    cursor: pointer;
+}
+
+.button-right:hover{
+    background-color: #1b1b1b;
+    color: white;
+    cursor: pointer;
+}
